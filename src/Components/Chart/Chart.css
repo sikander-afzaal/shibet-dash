@@ -1,0 +1,8 @@
+.chart canvas {
+  width: 100% !important;
+}
+@media screen and (max-width: 620px) {
+  .chart {
+    padding: 10px;
+  }
+}

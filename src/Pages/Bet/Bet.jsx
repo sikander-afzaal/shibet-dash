@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlusSquare } from "@fortawesome/free-regular-svg-icons";
+import Chart from "../../Components/Chart/Chart";
 
 const Bet = () => {
   return (
@@ -116,6 +117,9 @@ const Bet = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="chart">
+        <Chart />
       </div>
       <div className="balance">
         <div className="left-balance">

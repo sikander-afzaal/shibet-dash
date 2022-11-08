@@ -343,6 +343,18 @@
   color: var(--orange);
   cursor: pointer;
 }
+.chart {
+  width: 100%;
+  background: linear-gradient(
+    119.33deg,
+    rgba(36, 36, 36, 0.81) 12.69%,
+    rgba(36, 36, 36, 0.4) 67.98%
+  );
+  border: 0.5px solid #c0c0c0;
+  border-radius: 12px;
+  padding: 30px;
+  margin-top: 20px;
+}
 @media screen and (max-width: 1731px) {
   .balance {
     flex-direction: column;
